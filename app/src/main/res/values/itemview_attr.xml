@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="ItemView_icon" format="string"/>
+    <attr name="ItemView_text" format="string"/>
+    <attr name="ItemView_src" format="reference"/>
+    <attr name="ItemView_value" format="string"/>
+    <attr name="ItemView_select_value" format="reference"/>
+    <attr name="ItemView_acname" format="string"/>
+    <attr name="ItemView_url" format="string"/>
+
+    <attr name="ItemView_type" format="enum">
+        <enum name="text" value="0"/>
+        <enum name="phone" value="1"/>
+        <enum name="version" value="2"/>
+        <enum name="web" value="3"/>
+        <enum name="select" value="4"/>
+        <enum name="switchbtn" value="5"/>
+        <enum name="activity" value="6"/>
+    </attr>
+
+    <declare-styleable name="ItemView">
+        <attr name="ItemView_icon"/>
+        <attr name="ItemView_text"/>
+        <attr name="ItemView_value"/>
+        <attr name="ItemView_src"/>
+        <attr name="ItemView_type"/>
+        <attr name="ItemView_acname"/>
+        <attr name="ItemView_select_value"/>
+        <attr name="ItemView_url"/>
+
+    </declare-styleable>
+
+
+
+
+</resources>

@@ -3,4 +3,19 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <color name="white">#ffffff</color>
+    <color name="main_color">#e94f25</color>
+
+    <color name="text_body">#333333</color>
+    <color name="text_caption_dark">#676769</color>
+    <color name="text_caption">#89898b</color>
+    <color name="text_disalbe">#d6d6d9</color>
+    <color name="text_bule">#00b0ec</color>
+
+    //line
+    <color name="line_dark">#d6d6d9</color>
+    <color name="line">#e6e6e8</color>
+
+
 </resources>
