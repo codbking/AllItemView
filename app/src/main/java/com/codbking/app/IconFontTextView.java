@@ -14,6 +14,8 @@ import android.widget.TextView;
 public class IconFontTextView extends TextView {
 
 
+
+
     private String iconfontString = "";
     private String textImg = "";
 
