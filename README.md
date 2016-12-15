@@ -26,12 +26,12 @@
 
 **实现**
 
-       <com.codbking.app.ItemView
+        <com.codbking.view.ItemView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:ItemView_text="关于"
         app:ItemView_type="activity"
-        app:ItemView_acname="com.codbking.app.AboutActivity"/>
+        app:ItemView_acname="com.codbking.allitem.exaple.AboutActivity"/>
 
 >
 
