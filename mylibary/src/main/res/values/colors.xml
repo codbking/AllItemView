@@ -15,6 +15,7 @@
 
     //line
     <color name="line_dark">#d6d6d9</color>
+    <color name="line">#e6e6e8</color>
 
 
 </resources>

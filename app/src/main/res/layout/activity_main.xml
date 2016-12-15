@@ -91,7 +91,7 @@
         android:layout_height="wrap_content"
         app:ItemView_text="关于"
         app:ItemView_type="activity"
-        app:ItemView_acname="com.codbking.app.AboutActivity"
+        app:ItemView_acname="com.codbking.allitem.exaple.AboutActivity"
         />
 
 
