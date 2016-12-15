@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context="com.codbking.view.MainActivity">
+    tools:context="com.codbking.view.com.codbking.allitem.exaple.MainActivity">
 
     <com.codbking.view.ItemView
         android:layout_width="match_parent"

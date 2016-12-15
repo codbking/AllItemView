@@ -1,4 +1,4 @@
-package com.codbking.view;
+package com.codbking.allitem.exaple;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
