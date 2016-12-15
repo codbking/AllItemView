@@ -70,12 +70,12 @@ public class ListDialog<T> extends Dialog implements AdapterView.OnItemClickList
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.dialog_list);
+        setContentView(R.layout.cbk_dialog_list);
         setFullScreenAndLayoutBottom();
 
         this.list = (ListView) findViewById(R.id.list);
 
-        View footView = LayoutInflater.from(getContext()).inflate(R.layout.round_btn, null);
+        View footView = LayoutInflater.from(getContext()).inflate(R.layout.cbk_round_btn, null);
         TextView textView = (TextView) footView.findViewById(R.id.text);
         textView.setBackgroundDrawable(
                 Utils.getRoundSelectorDrawable(0xcc, Utils.getColor(getContext(),R.color.white), 5));

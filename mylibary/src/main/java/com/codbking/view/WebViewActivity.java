@@ -20,7 +20,7 @@ public class WebViewActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_web_view);
+        setContentView(R.layout.cbk_activity_web_view);
         this.mWebView = (WebView) findViewById(R.id.webView);
 
         mWebView.getSettings().setJavaScriptEnabled(true);

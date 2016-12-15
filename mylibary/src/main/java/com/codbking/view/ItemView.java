@@ -119,7 +119,7 @@ public class ItemView extends FrameLayout implements View.OnClickListener {
 
     private void init() {
 
-        View view = LayoutInflater.from(getContext()).inflate(R.layout.item_icon_and_text, this);
+        View view = LayoutInflater.from(getContext()).inflate(R.layout.cbk_item_icon_and_text, this);
         this.switchView = (ImageView) view.findViewById(R.id.switchView);
         this.arrorView = (IconFontTextView) view.findViewById(R.id.arrorView);
         this.image = (ImageView) view.findViewById(R.id.image);
