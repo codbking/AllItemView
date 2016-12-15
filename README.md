@@ -26,6 +26,24 @@
 
 **实现**
 
+1. **Add it in your root build.gradle at the end of repositories**
+
+	    allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	    }
+
+2. **Add the dependency**
+
+	    dependencies {
+	        compile 'com.github.codbking:AllItemView:v1.0.0'
+	    }
+
+
+3. **xml**
+
         <com.codbking.view.ItemView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -33,10 +51,8 @@
         app:ItemView_type="activity"
         app:ItemView_acname="com.codbking.allitem.exaple.AboutActivity"/>
 
->
 
-
-**权限**
+4. **权限**
 
     <uses-permission android:name="android.permission.CALL_PHONE"/>
     <uses-permission android:name="android.permission.INTERNET"/>
