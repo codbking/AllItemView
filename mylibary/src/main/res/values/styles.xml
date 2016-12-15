@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <!--animal-->
+    <style name="BottomPushAni" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/abc_slide_in_bottom</item>
+        <item name="android:windowExitAnimation">@anim/abc_slide_out_bottom</item>
+    </style>
+
+    <style name="dialogStyle" parent="android:Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- <item name="android:backgroundDimEnabled">false</item>  加上这句则对话框显示时背景不变暗 -->
+    </style>
+
+
+</resources>

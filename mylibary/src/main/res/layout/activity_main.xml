@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.codbking.view.MainActivity">
+
+    <com.codbking.view.ItemView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:ItemView_text="查看"
+        app:ItemView_icon="e601"
+        />
+
+    <include layout="@layout/line"/>
+
+    <com.codbking.view.ItemView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:ItemView_text="日程"
+        app:ItemView_icon="e60e"
+        />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        />
+
+    <com.codbking.view.ItemView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:ItemView_text="电话"
+        app:ItemView_icon="e619"
+        app:ItemView_type="phone"
+        app:ItemView_value="0755-123456"
+        />
+
+    <include layout="@layout/line"/>
+
+    <com.codbking.view.ItemView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:ItemView_text="检测版本"
+        app:ItemView_icon="e612"
+        app:ItemView_type="version"
+        />
+
+    <include layout="@layout/line"/>
+
+    <com.codbking.view.ItemView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:ItemView_text="百度"
+        app:ItemView_icon="e601"
+        app:ItemView_type="web"
+        app:ItemView_url="http://www.baidu.com/"
+        />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        />
+
+    <com.codbking.view.ItemView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:ItemView_text="地址"
+        app:ItemView_type="select"
+        app:ItemView_select_value="@array/addr"
+        />
+
+    <include layout="@layout/line"/>
+    <com.codbking.view.ItemView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:ItemView_text="推送消息"
+        app:ItemView_type="switchbtn"
+        />
+
+    <include layout="@layout/line"/>
+
+
+    <com.codbking.view.ItemView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:ItemView_text="关于"
+        app:ItemView_type="activity"
+        app:ItemView_acname="com.codbking.app.AboutActivity"
+        />
+
+
+
+</LinearLayout>

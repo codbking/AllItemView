@@ -1,11 +1,3 @@
 <resources>
-    <string name="app_name">万能AllItemView</string>
-
-    <array name="addr">
-        <item>北京@1</item>
-        <item>上海@2</item>
-        <item>广州@3</item>
-        <item>深圳@4</item>
-    </array>
-
+    <string name="app_name">My Application</string>
 </resources>
